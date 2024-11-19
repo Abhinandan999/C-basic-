@@ -1,0 +1,52 @@
+Here's a simple example of a basic C program:
+
+Code:
+
+#include <stdio.h>
+
+int main() {
+    // Declare a variable to store the user's name
+    char name[50];
+    
+    // Print a message to the user
+    printf("Enter your name: ");
+    
+    // Take input from the user
+    scanf("%s", name);
+    
+    // Print a welcome message
+    printf("Hello, %s! Welcome to the world of C programming.\n", name);
+    
+    return 0;
+}
+
+Explanation:
+
+1. #include <stdio.h>: This is a header file that includes functions like printf and scanf.
+
+
+2. int main(): The main function is the entry point of the program.
+
+
+3. char name[50];: Declares a string variable to store the user's name.
+
+
+4. printf: Prints a message to the console.
+
+
+5. scanf: Takes input from the user.
+
+
+6. return 0;: Indicates the program ended successfully.
+
+
+
+How It Works:
+
+1. The program asks the user to enter their name.
+
+
+2. It reads the input
+
+
+
